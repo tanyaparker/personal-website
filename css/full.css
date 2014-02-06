@@ -32,6 +32,10 @@ body {
     -o-background-size: cover;
 }
 
+.full_bg {
+  background-color: #c4e5e7;
+}
+
 .center {
   display: inline-block;
   margin-left: auto;
