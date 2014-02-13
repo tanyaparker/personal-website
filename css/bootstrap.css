@@ -599,10 +599,13 @@ a.bg-danger:hover {
   margin: 40px 0 20px;
   border-bottom: 1px solid #777777;
 }
-.about-column {
+.about-header {
   padding-bottom: 9px;
-  margin: 40px 0 20px;
+  margin: 20px 0 10px;
+}
+.about-column {
   text-align: right;
+  margin-right: 30px;
 }
 ul,
 ol {
@@ -808,6 +811,10 @@ pre code {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
+}
+.no-gutter {
+  padding-right: 0;
+  padding-left: 0;
 }
 .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
   float: left;
